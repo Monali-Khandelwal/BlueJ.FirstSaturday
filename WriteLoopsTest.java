@@ -102,7 +102,6 @@ public class WriteLoopsTest
     }
 
 
-
     @Test
     public void TestCheckGameScore()
     {

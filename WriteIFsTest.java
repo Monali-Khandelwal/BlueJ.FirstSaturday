@@ -50,6 +50,14 @@ public class WriteIFsTest
         writeIFs1.playerDied(true);
         assertEquals("Game Over!", writeIFs1.ss);
     }
+    
+    @Test
+    public void TestIfs1()
+    {
+        WriteIFs writeIFs1 = new WriteIFs();
+        writeIFs1.playerDied(false);
+        assertEquals("Continue!", writeIFs1.ss);
+    }
 
 
     @Test
